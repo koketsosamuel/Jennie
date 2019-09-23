@@ -86,7 +86,7 @@
 
       
 
-      let res = await axios.post("http://127.0.0.1:3000/bot", {msg: input.value})
+      let res = await axios.post("https://jennie-bot.herokuapp.com/bot", {msg: input.value})
       
       setTimeout(() => {
         bot.message.add({
