@@ -38,4 +38,4 @@ app.get("/", (req, res) => {
 })
 
 // server listen
-app.listen(3000)
+app.listen(process.event.PORT || 3000)
